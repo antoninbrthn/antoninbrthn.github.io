@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
+  <title id="title">Skill composition mark</title>
+  <desc id="desc">A central learned token connected to several skill nodes.</desc>
+  <rect width="520" height="360" rx="18" fill="#ffffff"/>
+  <rect x="18" y="18" width="484" height="324" rx="14" fill="#fbfaf7" stroke="#e0ddd5" stroke-width="2"/>
+  <g fill="none" stroke-width="7" stroke-linecap="round">
+    <path d="M260 180L142 108" stroke="#1f6f5b"/>
+    <path d="M260 180L378 108" stroke="#475c7a"/>
+    <path d="M260 180L142 252" stroke="#a85e32"/>
+    <path d="M260 180L378 252" stroke="#1f6f5b"/>
+  </g>
+  <circle cx="260" cy="180" r="58" fill="#242424"/>
+  <text x="260" y="193" fill="#ffffff" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="0">skill</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="0">
+    <circle cx="142" cy="108" r="38" fill="#d8ece5" stroke="#1f6f5b" stroke-width="3"/>
+    <text x="142" y="116" fill="#164f43" text-anchor="middle">A</text>
+    <circle cx="378" cy="108" r="38" fill="#dce3ef" stroke="#475c7a" stroke-width="3"/>
+    <text x="378" y="116" fill="#334760" text-anchor="middle">B</text>
+    <circle cx="142" cy="252" r="38" fill="#f1dfd2" stroke="#a85e32" stroke-width="3"/>
+    <text x="142" y="260" fill="#7b4221" text-anchor="middle">C</text>
+    <circle cx="378" cy="252" r="38" fill="#d8ece5" stroke="#1f6f5b" stroke-width="3"/>
+    <text x="378" y="260" fill="#164f43" text-anchor="middle">D</text>
+  </g>
+</svg>
