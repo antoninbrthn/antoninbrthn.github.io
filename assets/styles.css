@@ -4,7 +4,7 @@
   --text: #2b2b2b;
   --muted: #666;
   --line: #e5e5e5;
-  --accent: #b509ac;
+  --accent: #000;
   --max-width: 930px;
 }
 
@@ -54,7 +54,7 @@ p { margin: 0 0 0.9rem; }
 .publication-note { color: var(--muted); }
 .publication-links { display: flex; flex-wrap: wrap; gap: 0.75rem; }
 
-.blog-preview { grid-template-columns: 150px 1fr; align-items: center; gap: 1.5rem; }
+.blog-preview { display: grid; grid-template-columns: 150px 1fr; align-items: center; gap: 1.5rem; }
 .blog-preview img { width: 150px; max-height: 150px; object-fit: cover; border-radius: 4px; }
 .button-link { display: inline-block; padding: 0.4rem 0.8rem; color: white; background: var(--accent); border-radius: 4px; font-weight: 400; }
 .button-link:hover { color: white; text-decoration: none; filter: brightness(0.9); }
